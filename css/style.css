@@ -1,0 +1,233 @@
+body{
+}
+
+h1{
+	font-size: 30px;
+}
+
+h2{
+	margin-top: 5px;
+	font-size: 24px;
+}
+
+#container{
+	width:900px;
+	min-height:700px;
+	margin: 2px auto 10px auto;
+}
+
+#content{
+	width:900px;
+	min-height:700px;
+	margin: 0px auto 30px auto;
+	padding-top: 10px;
+	border-top: 1px solid black;
+}
+
+/*Meny*/
+#menu{
+	width: 900px;
+	height: 30px;
+	margin-bottom: 35px;
+	background-color: black;
+	float: none;
+}
+
+#menu ul li a{
+	margin: 0px 5px 0px 50px;
+	padding: 6px 0px 6px 4px;
+	font-family: 'Quicksand', sans-serif;
+	font-size:18px;
+	color: white;
+	border-left: 5px solid black;
+	text-align:center;
+	text-decoration: none;
+	float:left;
+}
+
+#menu a:hover{
+	border-left: 5px solid white;
+}
+
+#menuLoggedInAs{
+	padding: 6px 7px 6px 0px;
+	text-align: right;
+	font-family: 'Quicksand', sans-serif;	
+	color: white;
+	display: block;
+}
+
+#uploadPictureHead{
+	margin-bottom: 10px;
+}
+
+/*Formulär*/
+#loginForm, #registerForm{
+	/*width: 170px;*/
+	margin: 20px auto;
+}
+
+#commentForm{
+	width: 331px; 
+	margin: 20px auto;
+}
+
+#logofForm{
+	width: 70px;
+	margin: 20px 20px;
+}
+
+#updateUserForm, #deleteUserForm{
+	margin: 10px 0px 10px 15px;
+}
+
+
+#usernameInput, #passwordInput, #checkboxInput,
+#usernameRegistration, #passwordRegistration, #repeatPasswordRegistration,
+#oldPasswordUpdate, #passwordUpdate, #repeatPasswordUpdate, #submit_input
+#pictureUpload{
+	margin-top: 1px;
+	margin-bottom: 5px;
+}
+
+#submitButton, #submit_input{
+	margin-top: 7px;
+}
+
+.accordion{
+	margin-top: 3px;
+}
+
+.accordion h3{
+	color: black;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	background-color: #B2BEB5;
+	cursor: default;
+}
+
+/*Javascript-tooltip*/
+.tooltip{
+    width:150px;
+    margin-top: 20px;
+    padding: 3px;
+    position:absolute;
+    background-color:#B2BEB5;
+    border: 1px solid #e5e5e5;
+    opacity:0.9;
+    -moz-opacity:0.9; 
+    Filter: Alpha(opacity=80);
+}
+
+#wrong{
+	background-color: #E32636;
+	color: white;
+	opacity:0.5;
+}
+
+#correct{
+	background-color: #00FF00;
+	color: black;
+	opacity:0.5;	
+}
+
+.outputMessages{
+	margin: -5px 0px 5px 5px;
+	padding: 3px;
+	color: black;
+	text-align: right;
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		right bottom,
+		color-stop(0.1, #FFFFFF),
+		color-stop(1, #B2BEB5)
+	);
+	background-image: -moz-linear-gradient(left, #FFFFFF -1%, #B2BEB5 100%);
+}
+
+/*Enskild bild & kommentarer*/
+.largePicture{
+	max-width: 900px;
+	margin: 0px auto 10px auto;
+	display: block;
+}
+
+#pictureCommentsHead{
+	margin-top: 50px;
+	font-size: 20px;
+	font-style:italic;
+}
+
+.pictureCommentDiv{
+	margin: 5px 0px 0px 0px;
+	padding: 3px;
+	border-bottom:1px dashed black;
+}
+
+.pictureCommentsUser{
+	margin-bottom: 5px;
+	font-weight:bolder;
+}
+
+.pictureCommentsComment{
+	margin-bottom: 5px;
+	overflow:hidden;
+}
+
+.pictureCommentsDateTime{
+	margin-top: 10px;
+	font-size: 16px;
+	font-style:italic;	
+}
+
+.pictureCommentsNotice{
+	margin: 10px 0px 20px 0px;
+	text-align: center;
+	font-style: italic;
+}
+
+/*För bilder och antal kommentarer på startsidan*/
+.galleryThumbs{
+	width: 211px;
+	height: 211px;
+}
+
+.pictureDiv{
+	margin: 0px 7px 1px 7px;
+	float: left;
+}
+
+.pictureDiv span{
+	margin: 2px 0px 10px 0px;
+	padding: 5px;
+	font-family: 'Quicksand', sans-serif;
+	text-decoration:none;
+	color: black;
+	background: #fcfff4;
+	background: -moz-linear-gradient(top, #fcfff4 0%, #e9e9ce 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfff4), color-stop(100%,#e9e9ce));
+	background: -webkit-linear-gradient(top, #fcfff4 0%,#e9e9ce 100%);
+	background: -o-linear-gradient(top, #fcfff4 0%,#e9e9ce 100%);
+	background: -ms-linear-gradient(top, #fcfff4 0%,#e9e9ce 100%);
+	background: linear-gradient(top, #fcfff4 0%,#e9e9ce 100%);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	position: relative;
+	display: block;
+}
+
+#footer{
+	width: 900px;
+	height: 30px;
+	text-align: center;
+	background-color:black;
+	clear:both;
+}
+
+#footer p{
+	padding: 7px;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+}
